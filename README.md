@@ -68,7 +68,7 @@ The base lap time for this project is 87secs which corresponds to the base time 
 
 **Imaad Javaid**  
 📧 [Imaad.Javaid@outlook.com](mailto:Imaad.Javaid@outlook.com)  
-🌐 [LinkedIn](#)  
+🌐 [LinkedIn](linkedin.com/in/imaad-javaid-854941369)  
 🖥️ [GitHub](https://github.com/IJF1)  
 
 ---
