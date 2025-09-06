@@ -1,7 +1,7 @@
 # Tyre-Degradation-Simulator
 A simple simulator coded in python, that utilizes Tkinter and Matplotlib to explore the effects of different tyre Compounds over the course of a stint.
 The simulator demonstrates tyre wear, grip, temperature, and pressure evolution under different conditions, and how these factors influence lap times and puncture risks.
-The base lap time for this project is 87secs which corresponds to the base time of Silverstone.
+The base lap time for this project is 87secs which corresponds to the base time of Silverstone.Please refer to the repository to view my analysis of my simulator and comparison to real world tyre data.
 
 ---
 
