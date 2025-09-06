@@ -68,9 +68,9 @@ The base lap time for this project is 87secs which corresponds to the base time 
 
 **Imaad Javaid**  
 📧 [Imaad.Javaid@outlook.com](mailto:Imaad.Javaid@outlook.com)  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/imaad-javaid-854941369)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/imaad-javaid-854941369)  
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/IJF1)
 
-🖥️ [GitHub](https://github.com/IJF1)  
 
 ---
 
