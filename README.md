@@ -28,8 +28,9 @@ The base lap time for this project is 87secs which corresponds to the base time 
 
 (Add example screenshots of GUI + plots here)
 
+
 <p align="center">
-  <img src="screenshots/example.png" alt="Simulator screenshot" width="500"/>
+  <img width="1906" height="997" alt="image" src="https://github.com/user-attachments/assets/83fb3ee7-63d0-46c8-ad4e-bf38d09b1281" />
 </p>
 
 ---
