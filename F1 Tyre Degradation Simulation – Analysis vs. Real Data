@@ -1,0 +1,55 @@
+# F1 Tyre Degradation Simulation – Analysis vs. Real Data
+
+## 📌 Project Overview
+This project simulates tyre degradation in Formula 1 using a physics-inspired model.  
+The simulator tracks **grip, wear, temperature, pressure, and lap time** across multiple laps, allowing analysis of how tyre performance evolves in race conditions.  
+
+To validate and benchmark the model, I compared the simulator’s lap time degradation curve against **Lewis Hamilton’s 2024 British Grand Prix (Silverstone) stint (laps 1–18, dry conditions).**
+
+---
+
+## ⚙️ Simulation Parameters
+- **Tyre Compound:** Medium  
+- **Stint Length:** 18 laps  
+- **Aggression Factor:** 1.05  
+- **Track Abrasion:** 1.3  
+
+**Per-lap outputs:**
+- Grip coefficient  
+- Wear fraction  
+- Tyre temperature (°C)  
+- Tyre pressure (bar)  
+- Lap time (s)  
+
+---
+
+## 📊 Results
+
+### 🔹 Simulator Lap Time Degradation
+- Lap times increase progressively with tyre wear.  
+- By lap 18, degradation adds ~15 seconds compared to lap 1.  
+- The model shows continuous grip loss leading to a near-linear lap time increase.  
+
+### 🔹 Real Lap Times (Hamilton, Silverstone 2024)
+- Lap times remain relatively stable between **1:31–1:32** for most of the stint.  
+- A sharp rise in lap time only appears around lap 17–18, consistent with tyres dropping off suddenly.  
+
+---
+
+## 🔎 Comparison & Insights
+- **Simulator trend:** Lap times degrade steadily with wear → *linear profile*.  
+- **Real data trend:** Lap times stay flat, then spike → *exponential “cliff” profile*.  
+- **Key difference:** The model overestimates early degradation and underestimates the late sudden drop-off.  
+
+**Implications:**
+- Tyre wear should not linearly impact lap time.  
+- A *threshold-based grip cliff* (critical wear point) should be added to the model.  
+- Real degradation is strongly influenced by **thermal management** and **cumulative heat cycles**, not just wear.  
+
+---
+
+## 🚀 Next Steps
+- Implement a **cliff model**: lap times stable until ~70–80% wear, then rapid degradation.  
+- Add **track-specific calibration** (abrasion, corner load, weather).  
+- Validate against **other 2024 race stints** for multiple compounds.  
+- Extend model to include **pit stop strategy simulation**.  
