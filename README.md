@@ -24,9 +24,8 @@ The base lap time for this project is 87secs which corresponds to the base time 
 
 ---
 
-##  Screenshots
+##  User Interace
 
-(Add example screenshots of GUI + plots here)
 
 
 <p align="center">
@@ -41,8 +40,7 @@ The base lap time for this project is 87secs which corresponds to the base time 
 2) Install requirements , MATPLOTLIB may be required - Copy this (pip install matplotlib) into CMD ,TKinter is pre-installed on Python
 3) Run the simulator
 4) Please refer to the short video in this repository on how to use the application
-5) When a CSV file is saved it is saved to downloads as "tyre_simulation_results.csv" , The CSV file contains lap, compound, grip, wear, temperature, pressure, punctured and lap_time for the simulation that has been run
-
+5) When a CSV file is saved ,it is saved to downloads as "tyre_simulation_results.csv" , The CSV file contains lap, compound, grip, wear, temperature, pressure, punctured and lap_time for the simulation that has been run
 
 ---
 
